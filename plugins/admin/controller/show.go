@@ -30,7 +30,7 @@ import (
 	"github.com/marerm27/go-admin/template/icon"
 	"github.com/marerm27/go-admin/template/types"
 	"github.com/marerm27/go-admin/template/types/action"
-	"github.com/marerm27/html"
+	"github.com/GoAdminGroup/html"
 )
 
 // ShowInfo show info page.

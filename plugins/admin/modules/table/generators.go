@@ -30,7 +30,7 @@ import (
 	"github.com/marerm27/go-admin/template/types/action"
 	"github.com/marerm27/go-admin/template/types/form"
 	selection "github.com/marerm27/go-admin/template/types/form/select"
-	"github.com/marerm27/html"
+	"github.com/GoAdminGroup/html"
 	"golang.org/x/crypto/bcrypt"
 )
 

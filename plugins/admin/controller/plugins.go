@@ -27,7 +27,7 @@ import (
 	template2 "github.com/marerm27/go-admin/template"
 	"github.com/marerm27/go-admin/template/types"
 	"github.com/marerm27/go-admin/template/types/form"
-	"github.com/marerm27/html"
+	"github.com/GoAdminGroup/html"
 	"github.com/gin-gonic/gin"
 )
 
