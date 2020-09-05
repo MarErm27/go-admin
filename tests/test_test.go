@@ -7,6 +7,7 @@ import (
 	"github.com/marerm27/go-admin/tests/frameworks/gin"
 )
 
+
 func TestBlackBoxTestSuitOfBuiltInTables(t *testing.T) {
 	BlackBoxTestSuitOfBuiltInTables(t, gin.NewHandler, config.DatabaseList{
 		"default": {
