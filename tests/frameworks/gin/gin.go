@@ -2,30 +2,30 @@ package gin
 
 import (
 	// add gin adapter
-	ada "github.com/marerm27/go-admin/adapter/gin"
+	ada "github.com/MarErm27/go-admin/adapter/gin"
 	// add mysql driver
-	_ "github.com/marerm27/go-admin/modules/db/drivers/mysql"
+	_ "github.com/MarErm27/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/marerm27/go-admin/modules/db/drivers/postgres"
+	_ "github.com/MarErm27/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/marerm27/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/MarErm27/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/marerm27/go-admin/modules/db/drivers/mssql"
+	_ "github.com/MarErm27/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	_ "github.com/marerm27/themes/adminlte"
+	_ "github.com/MarErm27/themes/adminlte"
 
 	"io/ioutil"
 	"net/http"
 	"os"
 
-	"github.com/marerm27/go-admin/engine"
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/language"
-	"github.com/marerm27/go-admin/plugins/admin/modules/table"
-	"github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/chartjs"
-	"github.com/marerm27/go-admin/tests/tables"
-	"github.com/marerm27/themes/adminlte"
+	"github.com/MarErm27/go-admin/engine"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
+	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/go-admin/tests/tables"
+	"github.com/MarErm27/themes/adminlte"
 	"github.com/gin-gonic/gin"
 )
 

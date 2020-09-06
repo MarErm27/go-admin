@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/marerm27/go-admin/context"
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/db"
-	form2 "github.com/marerm27/go-admin/plugins/admin/modules/form"
-	"github.com/marerm27/go-admin/plugins/admin/modules/table"
-	"github.com/marerm27/go-admin/template/icon"
-	"github.com/marerm27/go-admin/template/types"
-	"github.com/marerm27/go-admin/template/types/action"
-	"github.com/marerm27/go-admin/template/types/form"
-	selection "github.com/marerm27/go-admin/template/types/form/select"
-	editType "github.com/marerm27/go-admin/template/types/table"
+	"github.com/MarErm27/go-admin/context"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/db"
+	form2 "github.com/MarErm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
+	"github.com/MarErm27/go-admin/template/icon"
+	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/template/types/action"
+	"github.com/MarErm27/go-admin/template/types/form"
+	selection "github.com/MarErm27/go-admin/template/types/form/select"
+	editType "github.com/MarErm27/go-admin/template/types/table"
 )
 
 // GetUserTable return the model of table user.

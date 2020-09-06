@@ -6,11 +6,11 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/marerm27/go-admin/context"
-	"github.com/marerm27/go-admin/modules/auth"
-	"github.com/marerm27/go-admin/modules/language"
-	"github.com/marerm27/go-admin/modules/system"
-	"github.com/marerm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/context"
+	"github.com/MarErm27/go-admin/modules/auth"
+	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/go-admin/modules/system"
+	"github.com/MarErm27/go-admin/template/types"
 )
 
 func (h *Handler) SystemInfo(ctx *context.Context) {

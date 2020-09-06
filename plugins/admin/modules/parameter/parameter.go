@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/marerm27/go-admin/plugins/admin/modules"
-	"github.com/marerm27/go-admin/plugins/admin/modules/constant"
-	"github.com/marerm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/go-admin/plugins/admin/modules"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/constant"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
 )
 
 type Parameters struct {

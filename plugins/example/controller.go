@@ -3,18 +3,18 @@ package example
 import (
 	"html/template"
 
-	"github.com/marerm27/go-admin/context"
-	"github.com/marerm27/go-admin/modules/auth"
-	"github.com/marerm27/go-admin/modules/page"
-	template2 "github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/chartjs"
-	"github.com/marerm27/go-admin/template/types"
-	"github.com/marerm27/themes/adminlte/components/chart_legend"
-	"github.com/marerm27/themes/adminlte/components/description"
-	"github.com/marerm27/themes/adminlte/components/infobox"
-	"github.com/marerm27/themes/adminlte/components/productlist"
-	"github.com/marerm27/themes/adminlte/components/progress_group"
-	"github.com/marerm27/themes/adminlte/components/smallbox"
+	"github.com/MarErm27/go-admin/context"
+	"github.com/MarErm27/go-admin/modules/auth"
+	"github.com/MarErm27/go-admin/modules/page"
+	template2 "github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/themes/adminlte/components/chart_legend"
+	"github.com/MarErm27/themes/adminlte/components/description"
+	"github.com/MarErm27/themes/adminlte/components/infobox"
+	"github.com/MarErm27/themes/adminlte/components/productlist"
+	"github.com/MarErm27/themes/adminlte/components/progress_group"
+	"github.com/MarErm27/themes/adminlte/components/smallbox"
 )
 
 func (e *Example) TestHandler(ctx *context.Context) {

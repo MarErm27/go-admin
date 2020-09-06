@@ -5,17 +5,17 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/marerm27/go-admin/context"
-	"github.com/marerm27/go-admin/modules/auth"
-	"github.com/marerm27/go-admin/modules/errors"
-	"github.com/marerm27/go-admin/modules/logger"
-	"github.com/marerm27/go-admin/plugins/admin/modules/constant"
-	"github.com/marerm27/go-admin/plugins/admin/modules/form"
-	"github.com/marerm27/go-admin/plugins/admin/modules/parameter"
-	"github.com/marerm27/go-admin/plugins/admin/modules/response"
-	"github.com/marerm27/go-admin/plugins/admin/modules/table"
-	"github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/context"
+	"github.com/MarErm27/go-admin/modules/auth"
+	"github.com/MarErm27/go-admin/modules/errors"
+	"github.com/MarErm27/go-admin/modules/logger"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/constant"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/parameter"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/response"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
+	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/types"
 )
 
 // GlobalDeferHandler is a global error handler of admin plugin.

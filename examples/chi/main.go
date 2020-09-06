@@ -8,17 +8,17 @@ import (
 	"path/filepath"
 	"strings"
 
-	_ "github.com/marerm27/go-admin/adapter/chi"
-	_ "github.com/marerm27/go-admin/modules/db/drivers/mysql"
+	_ "github.com/MarErm27/go-admin/adapter/chi"
+	_ "github.com/MarErm27/go-admin/modules/db/drivers/mysql"
 
-	"github.com/marerm27/go-admin/engine"
-	"github.com/marerm27/go-admin/examples/datamodel"
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/language"
-	"github.com/marerm27/go-admin/plugins/example"
-	"github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/chartjs"
-	"github.com/marerm27/themes/adminlte"
+	"github.com/MarErm27/go-admin/engine"
+	"github.com/MarErm27/go-admin/examples/datamodel"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/go-admin/plugins/example"
+	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/themes/adminlte"
 	"github.com/go-chi/chi"
 )
 
@@ -63,7 +63,7 @@ func main() {
 	// examplePlugin := plugins.LoadFromPlugin("../datamodel/example.so")
 
 	// customize the login page
-	// example: https://github.com/marerm27/demo.go-admin.cn/blob/master/main.go#L39
+	// example: https://github.com/MarErm27/demo.go-admin.cn/blob/master/main.go#L39
 	//
 	// template.AddComp("login", datamodel.LoginPage)
 

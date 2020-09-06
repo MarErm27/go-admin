@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/marerm27/go-admin/context"
-	"github.com/marerm27/go-admin/modules/auth"
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/db"
-	"github.com/marerm27/go-admin/modules/logger"
-	"github.com/marerm27/go-admin/modules/system"
-	"github.com/marerm27/go-admin/plugins/admin/models"
-	"github.com/marerm27/go-admin/plugins/admin/modules/captcha"
-	"github.com/marerm27/go-admin/plugins/admin/modules/response"
-	"github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/context"
+	"github.com/MarErm27/go-admin/modules/auth"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/db"
+	"github.com/MarErm27/go-admin/modules/logger"
+	"github.com/MarErm27/go-admin/modules/system"
+	"github.com/MarErm27/go-admin/plugins/admin/models"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/captcha"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/response"
+	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/types"
 )
 
 // Auth check the input password and username for authentication.

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/marerm27/go-admin/modules/db/dialect"
-	"github.com/marerm27/go-admin/modules/logger"
+	"github.com/MarErm27/go-admin/modules/db/dialect"
+	"github.com/MarErm27/go-admin/modules/logger"
 )
 
 // SQL wraps the Connection and driver dialect methods.

@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/marerm27/go-admin/modules/utils"
+	"github.com/MarErm27/go-admin/modules/utils"
 )
 
 func getThemeTemplate(moduleName, themeName string) {
@@ -125,7 +125,7 @@ func replaceContents(fileDir, moduleName, themeName string) {
 			checkError(err)
 			content := string(buf)
 
-			newContent := utils.ReplaceAll(content, "github.com/marerm27/themes/adminlte", moduleName,
+			newContent := utils.ReplaceAll(content, "github.com/MarErm27/themes/adminlte", moduleName,
 				"adminlte", themeName, "Adminlte", strings.Title(themeName))
 
 			checkError(ioutil.WriteFile(path, []byte(newContent), 0))

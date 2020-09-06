@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/language"
-	"github.com/marerm27/go-admin/plugins/admin/modules/constant"
-	"github.com/marerm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/constant"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
 	"github.com/gavv/httpexpect"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/marerm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/config"
 	"github.com/gavv/httpexpect"
 )
 

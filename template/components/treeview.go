@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"html/template"
 
-	"github.com/marerm27/go-admin/modules/utils"
-	"github.com/marerm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/modules/utils"
+	"github.com/MarErm27/go-admin/template/types"
 )
 
 type TreeViewAttribute struct {

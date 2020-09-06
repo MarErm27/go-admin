@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/marerm27/go-admin">
+  <a href="https://github.com/MarErm27/go-admin">
     <img width="48%" alt="go-admin" src="http://quick.go-admin.cn/official/assets/imgs/github_logo.png">
   </a>
 </p>
@@ -18,13 +18,13 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.com/marerm27/go-admin"><img alt="Go Report Card" src="https://api.travis-ci.com/marerm27/go-admin.svg?branch=master"></a>
-  <a href="https://goreportcard.com/report/github.com/marerm27/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
-  <a href="https://goreportcard.com/report/github.com/marerm27/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
+  <a href="https://travis-ci.com/MarErm27/go-admin"><img alt="Go Report Card" src="https://api.travis-ci.com/MarErm27/go-admin.svg?branch=master"></a>
+  <a href="https://goreportcard.com/report/github.com/MarErm27/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
+  <a href="https://goreportcard.com/report/github.com/MarErm27/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
   <a href="https://t.me/joinchat/NlyH6Bch2QARZkArithKvg" rel="nofollow"><img alt="telegram" src="https://img.shields.io/badge/chat%20on-telegram-blue" style="max-width:100%;"></a>
   <a href="https://goadmin.slack.com"><img alt="slack" src="https://img.shields.io/badge/chat on-Slack-yellow.svg"></a>
-  <a href="https://godoc.org/github.com/marerm27/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
-  <a href="https://raw.githubusercontent.com/marerm27/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
+  <a href="https://godoc.org/github.com/MarErm27/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
+  <a href="https://raw.githubusercontent.com/MarErm27/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
 </p> 
 
 <p align="center">
@@ -37,9 +37,9 @@ GoAdmin is a toolkit to help you build a data visualization admin panel for your
 
 Online demo: [https://demo.go-admin.com](https://demo.go-admin.com)
 
-Quick follow up example: [https://github.com/marerm27/example](https://github.com/marerm27/example)
+Quick follow up example: [https://github.com/MarErm27/example](https://github.com/MarErm27/example)
 
-GoAdmin+vue example: [https://github.com/marerm27/goadmin-vue-example](https://github.com/marerm27/goadmin-vue-example)
+GoAdmin+vue example: [https://github.com/MarErm27/goadmin-vue-example](https://github.com/MarErm27/goadmin-vue-example)
 
 ![interface](http://file.go-admin.cn/introduction/interface_en_3.png)
 
@@ -52,11 +52,11 @@ GoAdmin+vue example: [https://github.com/marerm27/goadmin-vue-example](https://g
 - ⚙️ **Frameworks**: support most of the go web frameworks.
 
 ## Translation
-We need your help: [https://github.com/marerm27/docs/issues/1](https://github.com/marerm27/docs/issues/1)
+We need your help: [https://github.com/MarErm27/docs/issues/1](https://github.com/MarErm27/docs/issues/1)
 
 ## Who is using
 
-[Comment the issue to tell us](https://github.com/marerm27/go-admin/issues/71).
+[Comment the issue to tell us](https://github.com/MarErm27/go-admin/issues/71).
 
 ## How to
 
@@ -66,7 +66,7 @@ Note: now you can quickly start by doing like this.
 
 ```shell
 $ mkdir new_project && cd new_project
-$ go install github.com/marerm27/go-admin/adm
+$ go install github.com/MarErm27/go-admin/adm
 $ adm init
 ```
 
@@ -74,16 +74,16 @@ Or (use adm whose version higher or equal than v1.2.16)
 
 ```shell
 $ mkdir new_project && cd new_project
-$ go install github.com/marerm27/go-admin/adm
+$ go install github.com/MarErm27/go-admin/adm
 $ adm init web
 ```
 
 ### Step 1: import sql
 
-- [mysql](https://raw.githubusercontent.com/marerm27/go-admin/master/data/admin.sql)
-- [mssql](https://raw.githubusercontent.com/marerm27/go-admin/master/data/admin.mssql)
-- [postgresql](https://raw.githubusercontent.com/marerm27/go-admin/master/data/admin.pgsql)
-- [sqlite](https://raw.githubusercontent.com/marerm27/go-admin/master/data/admin.db)
+- [mysql](https://raw.githubusercontent.com/MarErm27/go-admin/master/data/admin.sql)
+- [mssql](https://raw.githubusercontent.com/MarErm27/go-admin/master/data/admin.mssql)
+- [postgresql](https://raw.githubusercontent.com/MarErm27/go-admin/master/data/admin.pgsql)
+- [sqlite](https://raw.githubusercontent.com/MarErm27/go-admin/master/data/admin.db)
 
 ### Step 2: create main.go
 
@@ -95,17 +95,17 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/marerm27/go-admin/adapter/gin"
-	_ "github.com/marerm27/go-admin/modules/db/drivers/mysql"
-	"github.com/marerm27/go-admin/engine"
-	"github.com/marerm27/go-admin/plugins/admin"
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/themes/adminlte"
-	"github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/chartjs"
-	"github.com/marerm27/go-admin/template/types"
-	"github.com/marerm27/go-admin/examples/datamodel"
-	"github.com/marerm27/go-admin/modules/language"
+	_ "github.com/MarErm27/go-admin/adapter/gin"
+	_ "github.com/MarErm27/go-admin/modules/db/drivers/mysql"
+	"github.com/MarErm27/go-admin/engine"
+	"github.com/MarErm27/go-admin/plugins/admin"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/themes/adminlte"
+	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/examples/datamodel"
+	"github.com/MarErm27/go-admin/modules/language"
 )
 
 func main() {
@@ -166,7 +166,7 @@ func main() {
 </p>
 </details>
 
-More framework examples: [https://github.com/marerm27/go-admin/tree/master/examples](https://github.com/marerm27/go-admin/tree/master/examples)
+More framework examples: [https://github.com/MarErm27/go-admin/tree/master/examples](https://github.com/MarErm27/go-admin/tree/master/examples)
 
 ### Step 3: run
 
@@ -178,7 +178,7 @@ visit: [http://localhost:9033/admin](http://localhost:9033/admin)
 
 account: admin password: admin
 
-[A super simple example here](https://github.com/marerm27/example)
+[A super simple example here](https://github.com/MarErm27/example)
 
 See the [docs](https://book.go-admin.cn) for more details.
 

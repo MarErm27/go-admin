@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/db"
-	"github.com/marerm27/go-admin/modules/system"
-	"github.com/marerm27/go-admin/modules/utils"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/db"
+	"github.com/MarErm27/go-admin/modules/system"
+	"github.com/MarErm27/go-admin/modules/utils"
 )
 
 func buildProjectWeb(port string) {

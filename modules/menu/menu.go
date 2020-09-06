@@ -9,11 +9,11 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/marerm27/go-admin/modules/db/dialect"
+	"github.com/MarErm27/go-admin/modules/db/dialect"
 
-	"github.com/marerm27/go-admin/modules/db"
-	"github.com/marerm27/go-admin/modules/language"
-	"github.com/marerm27/go-admin/plugins/admin/models"
+	"github.com/MarErm27/go-admin/modules/db"
+	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/go-admin/plugins/admin/models"
 )
 
 // Item is an menu item.

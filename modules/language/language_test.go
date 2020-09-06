@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"testing"
 
-	"github.com/marerm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/config"
 	"github.com/stretchr/testify/assert"
 )
 

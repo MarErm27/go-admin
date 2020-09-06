@@ -5,11 +5,11 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/marerm27/go-admin/plugins/admin/modules/form"
-	"github.com/marerm27/go-admin/plugins/admin/modules/parameter"
-	template2 "github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/components"
-	"github.com/marerm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/parameter"
+	template2 "github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/components"
+	"github.com/MarErm27/go-admin/template/types"
 )
 
 type Config struct {

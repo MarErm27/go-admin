@@ -3,8 +3,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/tests/frameworks/gin"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/tests/frameworks/gin"
 )
 
 

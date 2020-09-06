@@ -1,4 +1,4 @@
-module github.com/marerm27/go-admin
+module github.com/MarErm27/go-admin
 
 go 1.13
 

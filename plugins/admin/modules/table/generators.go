@@ -11,25 +11,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/marerm27/go-admin/context"
-	"github.com/marerm27/go-admin/modules/collection"
-	"github.com/marerm27/go-admin/modules/config"
-	"github.com/marerm27/go-admin/modules/db"
-	"github.com/marerm27/go-admin/modules/db/dialect"
-	errs "github.com/marerm27/go-admin/modules/errors"
-	"github.com/marerm27/go-admin/modules/language"
-	"github.com/marerm27/go-admin/modules/logger"
-	"github.com/marerm27/go-admin/modules/ui"
-	"github.com/marerm27/go-admin/modules/utils"
-	"github.com/marerm27/go-admin/plugins/admin/models"
-	form2 "github.com/marerm27/go-admin/plugins/admin/modules/form"
-	"github.com/marerm27/go-admin/plugins/admin/modules/parameter"
-	"github.com/marerm27/go-admin/plugins/admin/modules/tools"
-	"github.com/marerm27/go-admin/template"
-	"github.com/marerm27/go-admin/template/types"
-	"github.com/marerm27/go-admin/template/types/action"
-	"github.com/marerm27/go-admin/template/types/form"
-	selection "github.com/marerm27/go-admin/template/types/form/select"
+	"github.com/MarErm27/go-admin/context"
+	"github.com/MarErm27/go-admin/modules/collection"
+	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/go-admin/modules/db"
+	"github.com/MarErm27/go-admin/modules/db/dialect"
+	errs "github.com/MarErm27/go-admin/modules/errors"
+	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/go-admin/modules/logger"
+	"github.com/MarErm27/go-admin/modules/ui"
+	"github.com/MarErm27/go-admin/modules/utils"
+	"github.com/MarErm27/go-admin/plugins/admin/models"
+	form2 "github.com/MarErm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/parameter"
+	"github.com/MarErm27/go-admin/plugins/admin/modules/tools"
+	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/go-admin/template/types/action"
+	"github.com/MarErm27/go-admin/template/types/form"
+	selection "github.com/MarErm27/go-admin/template/types/form/select"
 	"github.com/GoAdminGroup/html"
 	"golang.org/x/crypto/bcrypt"
 )
@@ -1433,10 +1433,10 @@ func (s *SystemTable) GetGenerateForm(ctx *context.Context) (generateTool Table)
 			{Text: "time", Value: "time"},
 			{Text: "log", Value: "log"},
 			{Text: "fmt", Value: "fmt"},
-			{Text: "github.com/marerm27/go-admin/modules/db/dialect", Value: "github.com/marerm27/go-admin/modules/db/dialect"},
-			{Text: "github.com/marerm27/go-admin/modules/db", Value: "github.com/marerm27/go-admin/modules/db"},
-			{Text: "github.com/marerm27/go-admin/modules/language", Value: "github.com/marerm27/go-admin/modules/language"},
-			{Text: "github.com/marerm27/go-admin/modules/logger", Value: "github.com/marerm27/go-admin/modules/logger"},
+			{Text: "github.com/MarErm27/go-admin/modules/db/dialect", Value: "github.com/MarErm27/go-admin/modules/db/dialect"},
+			{Text: "github.com/MarErm27/go-admin/modules/db", Value: "github.com/MarErm27/go-admin/modules/db"},
+			{Text: "github.com/MarErm27/go-admin/modules/language", Value: "github.com/MarErm27/go-admin/modules/language"},
+			{Text: "github.com/MarErm27/go-admin/modules/logger", Value: "github.com/MarErm27/go-admin/modules/logger"},
 		}).
 		FieldDefault("").
 		FieldOptionExt(map[string]interface{}{
